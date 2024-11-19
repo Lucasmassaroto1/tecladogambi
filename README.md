@@ -1,1 +1,1 @@
-# tecaldogambi
+# ESTE TEClADO FOI FeitO tOTALMENTE NA GAMBIARRA KKK
