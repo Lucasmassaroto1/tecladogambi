@@ -23,3 +23,14 @@ document.addEventListener("keyup", (event) =>{
     }
   });
 });
+
+// ATIVA ANIMAÇÕES AO CLICAR NO TECLADO VIRTUAL
+document.querySelectorAll(".tecla").forEach((tecla) => {
+  tecla.addEventListener("touchstart", () => {
+    tecla.classList.add("ativa"); // ADICIONA ANIMAÇÃO
+  });
+
+  tecla.addEventListener("touchend", () => {
+    tecla.classList.remove("ativa"); // REMOVE ANIMAÇÃO
+  });
+});
